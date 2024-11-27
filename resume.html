@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Prashanth Kumar Gunda - Resume</title>
+    <style>  
+        body { 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0; 
+            color: #333;  
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            scroll-behavior: smooth;
+        }
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 8px 8px 0 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        header p {
+            margin: 5px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 5px;
+            background: #007BFF;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #0056b3;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+            transform: translateY(-2px);
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            color: #007BFF;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .job, .degree {
+            margin-bottom: 15px;
+        }
+        .job h3, .degree h3 {
+            margin: 0;
+            font-size: 1.2em;
+            color: #007BFF;
+        }
+        .job p, .degree p {
+            margin: 5px 0;
+        }
+        .additional-info ul {
+            padding: 0;
+            list-style: none;
+        }
+        .additional-info ul li {
+            background: #007BFF;
+            color: #fff;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+        }
+        .profile-description {
+            max-width: 600px;
+        }
+        .profile-description p {
+            margin: 0;
+        }
+        .contact-details {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; /* Adjust the spacing between items as needed */
+        }
+        .contact-details li {
+            display: flex;
+            align-items: center;
+            font-size: 1.1em;
+        }
+        .contact-details i {
+            margin-right: 10px;
+            color: #007BFF;
+        }
+        .download-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: background 0.3s;
+        }
+        .download-link:hover {
+            background: #0056b3;
+        }
+
+        #education {
+            margin: 20px 0;
+        }
+
+        .education-entry {
+            margin-bottom: 20px;
+        }
+
+        .education-entry h3 {
+            margin: 0;
+            font-size: 1.2em;
+            color: #007BFF
+        }
+
+        .education-entry p {
+            margin: 5px 0;
+        }
+
+        .education-entry p strong {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+ 
+      <header>
+        <h1>My Portfolio</h1>
+        <p>Success is not final, failure is not fatal: It is the courage to continue that counts</p>
+    </header>
+
+    <nav> 
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Data_Science_Projects.html">Data_Science_Projects</a>
+        <a href="jokes.html">Data Science Jokes</a>
+    </nav>
+    
+
+    <body>
+         
+
+    <div class="container">
+        <center><h1>Prashanth Kumar Gunda</h1>
+            <a href="mailto:gundapr@mail.uc.edu">Email</a> |
+            <a href="https://www.linkedin.com/in/prashanth-kumar-gunda/" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/PrashanthG1" target="_blank">GitHub</a>
+            <a href="Prashanth_pandas.pdf" download="Prashanth_Kumar_Gunda_Inf.pdf" class="download-link">Download Resume (PDF)</a>
+        </center>
+    <hr>
+        <section id="profile" class="section profile">
+            <img src="https://github.com/PrashanthG1/PrashanthG1.github.io/raw/main/1708661820543.jpeg" alt="Prashanth Kumar Gunda">
+    <p>Hello! I'm Prashanth Kumar Gunda, a passionate Data Scientist with a strong background in developing and deploying machine learning models. I have a keen interest in data and have worked on various projects involving NLP, MLOps, and data visualization.</p>
+        
+        </section>
+
+               <div class="section">
+                <h2>Skillset</h2>
+                <ul>
+                        <li>Analytical, and Visualization tools:  SQL, R, NoSQL, Excel ,Tableau and PowerBI</li>
+                        <li>Programming tools: C, C++, Python, MATLAB, Java, Scala, Streamlit, HTML, CSS</li>
+                        <li>Deep Learning: PyTorch, Keras, TensorFlow</li>
+                        <li>NLP: NLTK, RAG, LLM, Prompt Engineering, PEFT, LoRA, LangChain, GraphRAG, RAGAS</li>
+                        <li>Machine Learning: Regression, Clustering, Classification, Gradient Boosting, Neural Networks, Sklearn, Scipy</li>
+                        <li>Cloud Technologies: AWS, Azure, GCPP</li>
+
+                    </li>
+                    
+                        
+                </ul>
+            </div>
+
+         <section class="section">
+            <h2>Work Experience</h2>
+            <div class="job">
+                <h3>Data Scientist Intern at GEN1E Life Sciences, INC</h3>
+                <p>April 2024 - June 2024</p>
+       <ul>
+    <li>Developed ML pipeline using MLOps to identify ARDS patient endotypes based on clinical parameters.</li>
+    <li>Identified baseline parameters using data manipulation techniques and performed advanced EDA on datasets of over 300,000 patients to extract features for endotype classification.</li>
+    <li>Utilized A/B testing to compare the performance of various machine learning models. Achieved the highest ROC-AUC score of 0.98 with an SVM model.</li>
+    <li>Used logistic regression to check the impact of HTE classification and endotype classification on clinical outcomes, finding that only endotype classification is significant, validating the model's effectiveness.</li>
+</ul>  </div>
+            <div class="job">
+                <h3>Graduate Assistant at University of Cincinnati</h3>
+                <p>August 2023 - December 2023</p>
+                <ul>
+                <li>Designed a novel pipeline using Clinical BERT for advanced Named Enitity Recognition
+                    (NER) and sentiment analysis, optimizing the extraction of social determinants 
+                    from diabetes patient records </li>
+                <li>Analyzed a vast dataset of 10M electronic health records (EHRs) using SQL, PyTorch, and high-performance computing, revealing SDOH for diabetes.</li>
+                <li>Optimized Clinical BERT with PEFT & LoRA leading to 10% decrease in computational time and 20% increase in model accuracy</li>
+                <li>Built a chatbot utilizing RAG and LangChain techniques and Streamlit to fetch patient records enabling user interaction about social determinants of health.</li>
+       </ul>     </div>
+            <div class="job">
+                <h3>Data Analyst at Infosys</h3>
+                <p>March 2022 - July 2023</p>
+                <ul>
+        
+
+<li>Orchestrated a pipeline for identifying fraudulent insurance claims using a database exceeding 100M records, with data curated and compressed using Hadoop and Hive, thus reducing data processing time by 40% .</li>
+<li>Utilized ETL tools and integrated SAS for advanced data processing and preprocessing.</li>
+<li>Conducted EDA using Python libraries, and employed Spark with Hadoop for distributed data processing.</li>
+<li>Implemented ensemble techniques on Random Forest and XGBoost to achieve a model of 78% accuracy in fraud detection, contributing to a projected $1.5M increase in annual company profit.</li>
+<li>Deployed the final models using AWS and AWS ECS, and integrated MLflow recduing deployment time by 35 %.</li>
+<li>For claim amount data, visualized data trends and seasonality, reducing forecasting errors by 20%, which improved financial planning and contributed to a $500,000 reduction in forecasting discrepancies. </li>
+<li>Built an ARIMA model using statsmodels for accurate forecasting, improving forecast accuracy by 30%.</li>
+                    
+           </ul> </div>
+
+            <div class="job">
+                <h3>Data Analyst at Byju's</h3>
+                <p>Jun 2021 - Jan 2022</p>
+                <ul>
+        
+
+<li>Designed a web platform using HTML, CSS, and JavaScript to capture and log user engagement times with Maths content, tracking over 50,000 overinteraction patterns and employed Git for version control.</li>
+<li>Extracted and processed the engagement data using SQL, applied K-Means clustering to identify 5 distinct patterns (silhouette score of 0.84), & optimized content delivery strategies, resulting in a 20% increase in engagement. </li>
+
+
+                    
+           </ul> </div>
+
+                         <div class="job">
+                <h3>Research Associate at IITH</h3>
+                <p>Aug 2020 - Jun 2021</p>
+                <ul>
+        
+
+<li>Developed unsupervised model (K-means) that achieved 86% accuracy in predicting optimal cluster membership under varying
+    environmental conditions like liquid density, temperature and viscosity on bubble interactions.</li>
+
+
+                    
+           </ul> </div>
+             
+   <section id="education" class="section">
+        <h2>Education</h2>
+        <div class="education-entry">
+            <h3>Master of Science in Business Analytics</h3>
+            <p><strong>University of Cincinnati, Carl H. Lindner College of Business</strong></p>
+            <p><strong>Expected:</strong> Aug 2024</p>
+            <p><strong>CGPA:</strong> 3.7</p>
+        </div>
+        <div class="education-entry">
+            <h3>Master of Technology in Engineering</h3>
+            <p><strong>Indian Institute of Technology, Hyderabad</strong></p>
+            <p><strong></strong> August 2021</p>
+            <p><strong>GPA:</strong> 4.0</p>
+        </div>
+    </section>
+     
+        </section>
+
+     
+    
+    </div>
+</body>
+       
+</html>
